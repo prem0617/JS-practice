@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM Simulator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Londrina+Outline&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>ATM Simulator</h1>
+        <div class="content_container">
+            <div>
+                
+                <div class="firstrow">
+                    <label for="password">Enter PIN:</label>
+                    <input type="password" name="" id="password" placeholder="Enter your PIN (1234)" autocomplete="off">
+                    <button class="box submit">Submit</button>
+                </div>
+
+                <div class="secondrow">
+                    <button class="box check">Check Balance</button>
+                    <button class="box deposite">Deposite</button>
+                    <button class="box withdraw">Withdraw</button>
+                    <button class="box logout">Logout</button>
+                </div>
+                <p class="hideYes" style="text-align: center;">Login successful.</p>
+                <p class="hideNo">Invalid PIN. Please try again.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
